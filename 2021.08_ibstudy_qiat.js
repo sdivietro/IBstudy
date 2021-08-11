@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://raw.githubusercontent.com/sdivietro/IBstudy/main/quiat9.js'], function(APIConstructor, iatExtension){
+define(['pipAPI', 'https://cdn.jsdelivr.net/gh/sdivietro/IBstudy/quiat9.js'], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 
 	return iatExtension({
@@ -56,7 +56,7 @@ define(['pipAPI', 'https://raw.githubusercontent.com/sdivietro/IBstudy/main/quia
 		},	
 
 		base_url : {//Where are your images at?
-			image : 'https://raw.githubusercontent.com/sdivietro/IBstudy/main/images/'
+			image : 'https://cdn.jsdelivr.net/gh/sdivietro/IBstudy/images/'
 		} 
 	});
 });
